@@ -9,6 +9,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import com.example.todolist.databinding.FragmentTitleBinding
 
+
 class TitleFragment : Fragment() {
 
     override fun onCreateView(
@@ -18,7 +19,9 @@ class TitleFragment : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentTitleBinding>(
             inflater,
             R.layout.fragment_title, container, false)
-
+        binding.button.setOnClickListener { view : View ->
+            view?.findNavController().navigate(R.id.action_titleFragment_to_editFragment)
+        }
         return binding.root
     }
 

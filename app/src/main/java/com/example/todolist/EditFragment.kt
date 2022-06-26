@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import com.example.todolist.databinding.FragmentEditBinding
+import com.example.todolist.databinding.FragmentTitleBinding
 
 
 class EditFragment : Fragment() {
@@ -13,7 +16,11 @@ class EditFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
-        return inflater.inflate(R.layout.fragment_edit, container, false)
+        val binding = DataBindingUtil.inflate<FragmentEditBinding>(
+            inflater,
+            R.layout.fragment_edit, container, false)
+
+        return binding.root
     }
 
 }
