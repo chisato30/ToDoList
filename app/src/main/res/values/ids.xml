@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="todo_title_text" type="id">todo_title_text</item>
-    <item name="todo_title_text" type="id">todo_title_text</item>
-    <item name="todotitletext" type="id">todotitletext</item>
-    <item name="todo" type="id">todotitletext</item>
+
 </resources>
