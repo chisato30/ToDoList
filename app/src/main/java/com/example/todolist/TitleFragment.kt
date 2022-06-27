@@ -22,6 +22,7 @@ class TitleFragment : Fragment() {
         binding.button.setOnClickListener { view : View ->
             view?.findNavController().navigate(R.id.action_titleFragment_to_editFragment)
         }
+
         return binding.root
     }
 
