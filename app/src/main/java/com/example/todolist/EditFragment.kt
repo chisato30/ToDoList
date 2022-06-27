@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import com.example.todolist.databinding.FragmentEditBinding
-import com.example.todolist.databinding.FragmentTitleBinding
 
 
 class EditFragment : Fragment() {
@@ -20,7 +19,8 @@ class EditFragment : Fragment() {
             inflater,
             R.layout.fragment_edit, container, false)
 
+
         return binding.root
     }
-
 }
+

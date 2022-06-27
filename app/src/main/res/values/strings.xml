@@ -4,4 +4,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="nonText">ToDoリストはありません。</string>
     <string name="addition_btn">ToDoを追加</string>
+    <string name="pick_time">timepicker</string>
 </resources>
