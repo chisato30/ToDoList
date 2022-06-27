@@ -34,6 +34,9 @@
             android:background="#00000000"
             android:ems="10"
             android:inputType="textPersonName"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.054"
@@ -67,6 +70,7 @@
             android:ems="10"
             android:inputType="date"
             android:text="　月　日"
+            android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -84,6 +88,7 @@
             android:ems="10"
             android:inputType="time"
             android:text="　0:00"
+            android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -115,13 +120,16 @@
             android:background="#00000000"
             android:ems="10"
             android:inputType="textPersonName"
+            android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_detail"
             app:layout_constraintVertical_bias="0.078"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            android:maxLength="20"
+            android:maxLines="5"/>
 
         <Button
             android:id="@+id/btn_addition"
