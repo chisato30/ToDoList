@@ -24,7 +24,4 @@ class TimePickerFragment : DialogFragment(), TimePickerDialog.OnTimeSetListener 
         // Do something with the time chosen by the user
     }
 
-    fun show(s: String) {
-
-    }
 }

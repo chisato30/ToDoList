@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import com.example.todolist.databinding.FragmentEditBinding
+import org.w3c.dom.Text
 
 
 class EditFragment : Fragment() {
@@ -18,7 +19,6 @@ class EditFragment : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentEditBinding>(
             inflater,
             R.layout.fragment_edit, container, false)
-
 
         return binding.root
     }
