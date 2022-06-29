@@ -17,8 +17,7 @@ data class ToDo(
     @ColumnInfo(name = "detail")
     var detail: String,
 
-    @ColumnInfo(name = "schedule")
-    var schedule: Int = -1,
+
 )
 
 annotation class ColumnInfo(val name: String)

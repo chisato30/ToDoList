@@ -1,9 +1,14 @@
 package com.example.todolist
 
+import android.app.Application
 import android.util.Log
-import androidx.lifecycle.ViewModel
+import androidx.lifecycle.AndroidViewModel
+import database.ToDoDatabaseDao
 
-class EditViewModel  : ViewModel() {
+class EditViewModel(
+    val database: ToDoDatabaseDao,
+    application: Application) : AndroidViewModel(application) {
+
     init {
         Log.i("EditViewModel", "EditViewModel created!")
     }
