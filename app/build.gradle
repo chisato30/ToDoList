@@ -1,7 +1,15 @@
-plugins {
-    id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
-}
+//plugins {
+//    id 'com.android.application'
+//    id 'org.jetbrains.kotlin.android'
+//    apply plugin: 'kotlin-kapt'
+//}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+//apply plugin: 'androidx.navigation.safeaapply plugin: \'androidx.navigation.safeargs\'\nrgs'
+
 
 android {
     compileSdk 32
