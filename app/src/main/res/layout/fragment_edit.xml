@@ -8,7 +8,7 @@
 
     <data>
         <variable
-            name="sleepQualityViewModel"
+            name="editViewModel"
             type="com.example.todolist.EditViewModel" />
     </data>
 
